@@ -1,0 +1,25 @@
+h1 {
+    color:turquoise;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    /* background: url(./download.png); */
+    width: 200px;
+
+}
+/* tagovi se selektuju - pises samo tag */
+/* klase se selektuju .ime-klase */
+/* id se selektuje # */
+/* tag<klasa<id */
+
+.klasa1 {
+    color: orange;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#id1{
+    color: green;
+    font-size: 60px;
+
+}
+

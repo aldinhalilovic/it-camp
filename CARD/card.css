@@ -1,0 +1,35 @@
+div{
+    width: 600px;
+    height: 450px;
+
+    margin: 100px auto;
+    border: 1.5px #980000  solid;
+    border-radius: 10px;
+
+}
+
+div img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1{
+    padding: 10px 20px;
+    color: #FF0000;
+
+}
+
+h3{
+    font-size: 21px;
+    padding-left: 20px;
+    color: #FF6633;
+}
+
+p{
+    padding-left: 20px;
+    color: #660000;
+}
+
+div:hover{
+    background-color: #FFFF00;
+}

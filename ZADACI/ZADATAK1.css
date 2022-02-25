@@ -1,0 +1,34 @@
+
+div{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+}
+
+.Klasa1{
+    
+    background-color: red;
+    height: 600px;
+    width: 600px;
+    }
+
+.Klasa1 p {
+    font-size: 50px;
+}
+
+#Id1{
+    
+    background-color: blue;
+    }
+
+
+#p1{
+    text-align: center;
+}  
+
+
+.Klasa1:hover{
+    background-color: aquamarine;
+    text-align: end;
+}
+/* hover- kad predjes misom, menja stil */

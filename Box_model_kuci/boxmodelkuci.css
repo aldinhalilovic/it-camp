@@ -1,0 +1,45 @@
+
+
+div{
+    width: 350px;
+    height: 350px;
+}
+
+.klasa1{
+    background-color: cyan;
+    margin: 150px auto;
+    border: 15px solid black ;
+    padding: 0 20px
+
+}
+
+.klasa1 p {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.klasa2{
+    background-color: blueviolet;
+    margin: 100px auto;
+    border: 10px solid black;
+    padding: 0 15px;
+}
+
+.klasa2 p {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.klasa3{
+    background-color: saddlebrown;
+    margin: 50px auto;
+    border: 5px solid black;
+    padding: 0 10px;
+}
+
+.klasa3 p {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* kako da centriram na sredini diva */
