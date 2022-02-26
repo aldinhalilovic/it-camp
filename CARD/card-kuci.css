@@ -1,0 +1,45 @@
+.kartica{
+    width: 600px;
+    height: 500px;
+    margin: 100px auto;
+    border: 3px #980000 solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+div img {
+    width: 601px;
+    height: 251px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.kartica-text{
+    padding-left: 20px;
+}
+
+.kartica-text h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 30px;
+    color: red;
+}
+
+.kartica-text h3 {
+    padding-left: 20px;
+    font-size: large;
+    color: black;
+    text-transform: uppercase;
+}
+
+.kartica-text p {
+    padding-left: 20px;
+    font-size: medium;
+    
+}
+
+.kartica:hover{
+    background-color: aqua;
+}
+
