@@ -1,0 +1,12 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    /* ima fontfamily po sistemu.....
+    moze da se gadja h i p preko taga i da se menja debljina i size */
+
+    
+}
+
+#ikonica{
+    font-size: 30px;
+    color: blueviolet;
+}
