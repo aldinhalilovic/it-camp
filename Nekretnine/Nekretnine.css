@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
 body{
-    background-color: rgb(74, 60, 167);
+    background-color: #987456e5;
 }
 
 .stan{
-    
+    font-family: 'Poppins', sans-serif;
     width: 550px;
     height: 500px;
     position: absolute;
@@ -12,66 +14,42 @@ body{
     left: 0;
     right: 0;
     margin: auto;
-    border: 3px solid rgb(243, 158, 0);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    background-color: rgb(15, 218, 218);
+    border: 7px solid #644117;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    background-color: #dfcfb1
 }
 
 div img {
-    width: 545px;
-    height: 180px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+        display: inline-flex;
+        width: 550px;
+        height: 180px;
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+        border-bottom: 1px solid black;
 }
 
 .tekst{
-    color: rgb(235, 113, 68);
-    font-size: larger;
-    padding-left: 25px
-}
-
-.ikonice{
-    font-size: large;
-    padding-left: 15px;
-}
-
-.stan:hover{
-    background-color: rgba(93, 250, 20, 0.856);
-}
-
-
-
-.koliba{
-    
-    width: 550px;
-    height: 500px;
-    margin: 700px auto;
-    border: 3px solid #808000;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    background-color: 	#808000;
-}
-
-div img {
-    width: 552px;
-    height: 180px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-}
-
-.tekst{
+    font-weight: 700;
+    text-align: center;
     color: black;
     font-size: larger;
     padding-left: 25px
 }
 
-.ikonice{
-    font-size: large;
-    padding-left: 15px;
-    color: black;
+p{
+    font-size: larger;
 }
 
-/* jos slike ostalo da uklopim i to je to*/
+.ikonice{   
+    color: #644117;
+    font-size: large;
+    padding-left: 15px;
+}
+
+
+
+/* sliku da fit-am u bord
+   */
 
 
