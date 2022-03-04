@@ -1,0 +1,75 @@
+
+
+/* .flex{
+     flex-postavlja se na glavni veliki div,stavlja elemente jedan pored drugog 
+    display: flex;
+    width: 99%;
+    height: 300px;
+    background-color: green;
+}
+
+.unutar-flexa-prvi{
+    width: 33%;
+    height: 300px;
+    background-color: blue;
+}
+
+.unutar-flexa-drugi{
+    width: 33%;
+    height: 300px;
+    background-color: red;
+}
+.unutar-flexa-treci{
+    width: 33%;
+    height: 300px;
+    background-color: rgb(36, 120, 153);
+}
+
+.unutar-flexa-cetvrti{
+    width: 33%;
+    height: 300px;
+    background-color: rgb(114, 103, 0);
+} */
+
+/* % koristimo kada hocemo da delimo ekran na jednake delove
+width-height uglavnom */
+
+
+
+/* .vh-vw{ 
+     vh- SAMO ZA HEIGHT %ne rade
+       vw- SAMO ZA WIDTH moze i % 
+    height: 100vh;
+    width: 50vw;
+    background-color: aqua;
+}
+
+.nav{
+    height: 10vh;
+    background-color: burlywood;
+} */
+
+*{
+    margin: 0;
+}
+
+/* html{
+    font-size: 10px;
+}
+
+h1{
+    font-size: 10rem;
+}
+
+p{
+    font-size: 3rem;
+}     REM KORISTI OSNOVU JEDINICU KOJU DEFINISEMO U HTML */
+
+.em{
+    font-size: 10px;
+}
+
+span{
+    font-size: 1em
+    ;
+}
