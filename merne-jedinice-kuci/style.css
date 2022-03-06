@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+
+.top{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+}
+
+.top-levo{
+    background-color: #4d4d4d;
+    width: 50vw;
+    height: 50vh;
+    border-right: 1px solid black;
+}
+
+.top-desno{
+    background-color: grey;
+    width: 50vw;
+    height: 50vh;
+}
+
+.bot{
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+}
+
+.bot-levo{
+    background-color: grey;
+    width: 50vw;
+    height: 50vh;
+    border-top: 1px solid black;
+}
+
+.bot-desno{
+    background-color: #4d4d4d;
+    width: 50vw;
+    height: 50vh;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.card{
+    
+    width: 300px;
+    height: 250px;
+    margin-left: 13vw;
+    margin-top: 7%;
+    background-color: blanchedalmond;
+    font-weight: 800;
+}
+
+
+.card img{
+    width: 300px;
+    height: 200px;
+}
