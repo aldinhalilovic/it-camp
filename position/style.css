@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    background-color: antiquewhite;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.hero{
+    background-color: grey;
+    height: 30vh;
+    width: 100%;
+}
+
+.footer{
+    background-color:darkkhaki;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.relative{
+    position:relative;
+    width: 50%;
+    height: 20vh;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.absolute{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    background-color:  greenyellow;
+}
+
+/* relative se stavlja zbog absoluta,absolut ne radi bez relativa */
+/* fixed se koristi da se fiksira nesto na sajtu,na viewpage */
+/* sticky koristis kad hoces da ti scroll pokupi neki element na viewpage */
