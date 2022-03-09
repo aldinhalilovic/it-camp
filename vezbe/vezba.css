@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    height: 10vh;
+    background-color: blueviolet ;
+    ;
+}
+
+.navbar h1{
+    padding-top: 10px;
+    padding-left: 5px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.hero{
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    background-color: beige;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.herotext h1{
+    width: 400px;
+    height: 15vh;
+    margin-top: 20px;
+    padding-left: 50px;
+    /* border: 2px solid black; */
+}
+
+.herotext h5{
+    width: 300px;
+    height: 10vh;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+img{
+    width: auto;
+    height: 30vh;
+    margin-top: 25px;
+    padding-left: 300px;
+    position: relative;
+}
+
+.hero p{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+}
