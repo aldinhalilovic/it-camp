@@ -106,7 +106,94 @@ body{
     font-weight: 600;
     text-transform: uppercase;
     margin: 40px 30px;
+    transition: 0.5s;
 }
+
+.podhero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(152, 184, 252);
+    height: 300px;
+}
+
+.podhero .prva {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    width: 40vw;
+    height: 30vh;
+    margin: 50px;
+    font-size: 19px;
+    font-weight: 500;
+    background:rgb(248, 248, 225);
+    transition: 0.4s;
+    
+}
+
+.podhero .druga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    width: 40vw;
+    height: 30vh;
+    margin: 50px;
+    font-size: 19px;
+    font-weight: 500;
+    background:rgb(248, 248, 225);
+    transition: 0.5s;
+    
+}.podhero .treca {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    width: 40vw;
+    height: 30vh;
+    margin: 50px;
+    font-size: 19px;
+    font-weight: 500;
+    background:rgb(248, 248, 225);
+    transition: 0.5s;
+}
+
+.podhero .cetvrta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    width: 40vw;
+    height: 30vh;
+    margin: 50px;
+    font-size: 19px;
+    font-weight: 500;
+    background:rgb(248, 248, 225);
+    transition: 0.5s;
+}
+
+.prva:hover{
+    background-color: rgba(62, 100, 184, 0.842);
+    color: white;
+}
+
+.druga:hover{
+    background-color: rgba(62, 100, 184, 0.842);
+    color: white;
+}
+
+.treca:hover{
+    background-color: rgba(62, 100, 184, 0.842);
+    color: white;
+}
+
+.cetvrta:hover{
+    opacity: 1;
+    background-color: rgba(62, 100, 184, 0.842);
+    color: white;
+}
+
 
 .team{
     display: flex;
