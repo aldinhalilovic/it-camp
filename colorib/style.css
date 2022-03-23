@@ -494,4 +494,5 @@ body{
     width: 1020px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
