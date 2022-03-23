@@ -263,4 +263,235 @@ body{
 .services{
     width: 100%;
     height: 100vh;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.services .toptext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+}
+
+.services .toptext h5{
+    color: #0779e4;
+    text-transform: uppercase;
+}
+
+.services .toptext h1{
+    text-align: center;
+    color: rgba(0,0,0,.8);
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.services .kartice{
+    display: flex;
+    justify-content: center;
+    background-color:#f8f8f8;
+    color: white;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.services .kartice .kartica1{
+    width: 230px;
+    height: 320px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.services .kartice .kartica2{
+    width: 230px;
+    height: 320px;
+    padding: 40px;
+    margin-left: 15px;
+    background-color: white;
+    color: black;
+}
+
+.services .kartice .kartica3{
+    width: 230px;
+    height: 320px;
+    padding: 40px;
+    margin-left: 15px;
+    background-color: white;
+    color: black;
+}
+
+.services .kartice .gg-box{
+    width: 70px;
+    height: 60px;
+    background-color: #0079e4;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.services .kartice h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0079e4;
+}
+
+.services .kartice p{
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.services .kartice a{
+    color: #0079e4;
+    text-decoration: none;
+    /* width: 50px */
+}
+
+.services .kartice h5{
+    display: flex;
+    align-items: center;
+    width: 95px;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.services .bottext{
+    background-color:#f8f8f8;
+    color: #999;
+    margin: 50px 20px;
+    width: 650px;
+    /* margin-left: 20px; */
+}
+
+.services .bottext h4{
+    margin-bottom: 15px;
+}
+
+.services .bottext a{
+    text-decoration: none;
+    color: #0079e4;
+    padding: 5px;
+    width: 50px;
+}
+
+.traka{
+    width: 100%;
+    height: 250px;
+    background-color: #0079e4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.traka .customer{
+    display: flex;
+    width: auto;
+    color: white;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.traka .customer .fa-user{
+    font-size: 100px;
+    margin-right: 10px;
+}
+
+.traka h5{
+    text-transform: uppercase;
+    color: rgba(255,255,255,.9);
+}
+
+.traka .project{
+    display: flex;
+    width: auto;
+    color: white;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.traka .project .fa-picture-o{
+    font-size: 100px;
+    margin-right: 10px;
+}
+
+.traka .coffee{
+    display: flex;
+    width: auto;
+    color: white;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.traka .coffee .fa-coffee{
+    font-size: 100px;
+    margin-right: 10px;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .toptext{
+    margin-top: 130px;
+    margin-bottom: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.portfolio .toptext h5{
+    color: #0079e4;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.portfolio .toptext h1{
+    color: rgba(0,0,0,.8);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.portfolio .slike{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.portfolio .slike .top{
+    margin: 15px;
+    width: 1020px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolio .slike .mid{
+    margin: 15px;
+    width: 1020px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolio .slike .bot{
+    margin: 15px;
+    width: 1020px;
+    display: flex;
+    justify-content: space-evenly;
 }
