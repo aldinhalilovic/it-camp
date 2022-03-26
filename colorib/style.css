@@ -577,4 +577,61 @@ body{
 
 .blog h5{
     color: #0079e4;
+    font-size: 13px;
+    font-weight: 700;
 }
+
+.blog h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: rgba(0,0,0,.8);
+    margin-bottom: 40px;
+}
+
+.blog .vrh{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.blog .vrh .vrhl{
+    width: 476px;
+    height: 559px;
+    background-color: white;
+
+}
+
+.blog .vrh .vrhd{
+    width: 476px;
+    height: 559px;
+    margin-left: 30px;
+    background-color: white;
+}
+
+.blog .vrh .text{
+    /* padding-left: 30px;
+    padding-right: 8px; */
+    color: #999;
+    margin: 30px;
+    display: flex;
+    flex-direction:column;
+    line-height: 2;
+}
+
+.blog .vrh span{
+    color: #0079e4;
+}
+
+.blog .vrh a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.blog .vrh a:hover{
+    color: #0079e4;
+}
+
