@@ -16,6 +16,7 @@ body{
     justify-content: space-between;
     position:sticky;
     top: 0%;
+    z-index: 3;
 }
 
 .navbar .logo{
@@ -480,7 +481,12 @@ body{
     width: 1020px;
     display: flex;
     justify-content: space-evenly;
+    transition: background-color;
 }
+
+/* .portfolio .slike .top:hover{
+
+} */
 
 .portfolio .slike .mid{
     margin: 15px;
@@ -516,4 +522,59 @@ body{
     color: rgba(0,0,0,.8);
     font-size: 40px;
     font-weight: 700;
+}
+
+.portfolio .testimonial-kartice{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.portfolio .testimonial-kartice .prva{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    color: #999;
+    margin: 15px;
+    /* padding-left: 30px; */
+}
+
+.portfolio .testimonial-kartice .prva .slika{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    font-size: 20px;
+    color: #111;
+    padding-left: 20px ;
+}
+
+.portfolio .testimonial-kartice .prva .slika span{
+    font-size: 14px;
+    color: #0079e4;
+    font-weight: 500;
+}
+
+.portfolio .testimonial-kartice .prva .slika img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin:20px 20px 20px 0;
+}
+
+.portfolio .testimonial-kartice .prva p{
+    padding: 20px;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f8f8f8;
+    padding-top: 200px;
+}
+
+.blog h5{
+    color: #0079e4;
 }
