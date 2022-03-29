@@ -481,12 +481,8 @@ body{
     width: 1020px;
     display: flex;
     justify-content: space-evenly;
-    transition: background-color;
 }
 
-/* .portfolio .slike .top:hover{
-
-} */
 
 .portfolio .slike .mid{
     margin: 15px;
@@ -634,4 +630,3 @@ body{
 .blog .vrh a:hover{
     color: #0079e4;
 }
-
