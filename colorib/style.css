@@ -8,6 +8,10 @@ body{
     line-height: 1.8;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar{
     background-color: rgb(71, 107, 224);
     width: 100%;
@@ -58,7 +62,6 @@ body{
 .home .slika{
     display: flex;
     justify-content: center;
-
 }
 
 .home .textt{

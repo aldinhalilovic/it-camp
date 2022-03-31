@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .navbar{
     height: 20vh;
     background-color: red;
@@ -13,7 +17,15 @@
 }
 
 a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
+    font-weight: 700;
+    font-size: large;
+    color: black;
+    text-transform: capitalize;
 }
 
 .hero{
@@ -28,14 +40,22 @@ a{
 .prva{
     
     background-color: black;
-    width: 100px;
+    width: 200px;
     height: 200px;
     margin: 10px;
+    border-radius: 50%;
+    transition: background-color 2s;
+    transition: border-radius 2s;
+}
+
+.prva:hover{
+    background-color: #f9f9f9;
+    border-radius: 0;
 }
 
 .druga{
    
-    background-color: black;
+    background-image:linear-gradient(to bottom left, blue,red);
     width: 100px;
     height: 200px;
     margin: 10px;
