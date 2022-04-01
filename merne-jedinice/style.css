@@ -1,37 +1,40 @@
 
 
-/* .flex{
-     flex-postavlja se na glavni veliki div,stavlja elemente jedan pored drugog 
+ .flex{
+     /* flex-postavlja se na glavni veliki div,stavlja elemente jedan pored drugog  */
     display: flex;
-    width: 99%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: 300px;
     background-color: green;
 }
 
 .unutar-flexa-prvi{
-    width: 33%;
+    width: 100%;
     height: 300px;
     background-color: blue;
 }
 
 .unutar-flexa-drugi{
-    width: 33%;
+    width: 100%;
     height: 300px;
     background-color: red;
 }
 .unutar-flexa-treci{
-    width: 33%;
+    width: 100%;
     height: 300px;
     background-color: rgb(36, 120, 153);
 }
 
 .unutar-flexa-cetvrti{
-    width: 33%;
+    width: 100%;
     height: 300px;
     background-color: rgb(114, 103, 0);
-} */
+} 
 
-/* % koristimo kada hocemo da delimo ekran na jednake delove
+ /* % koristimo kada hocemo da delimo ekran na jednake delove 
 width-height uglavnom */
 
 

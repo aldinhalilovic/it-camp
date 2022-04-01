@@ -25,18 +25,25 @@ body{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    line-height: 1.8;
 }
 
 .navbar .logo{
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 45px;
     font-size: 30px;
     font-weight: bolder;
     color:white;
+    /* line-height: 1.8; */
 }
 
-.navbar .logo p{
-    text-decoration: underline;
+.navbar .logo i{
+    font-size: 30px;
+    margin: 0%;
+    padding: 0%;
+    /* line-height: 1.8; */
 }
 
 .navbar .linkovi {
@@ -295,7 +302,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 100%;
     background-color: whitesmoke;
     font-size: 20px;
     font-weight: 700;

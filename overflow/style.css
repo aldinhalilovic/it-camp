@@ -1,9 +1,9 @@
-/* div{
+ div{
     margin: 0px auto;
     background-color: red;
     width: 150px;
     height: 150px;
-    overflow: auto;
+    overflow:auto
 }
 
 .drugi{
@@ -14,9 +14,9 @@
 
 h1{
     font-size: 50px;
-} */
+} 
 
-div{
+/* div{ 
     margin: 0px auto;
     width: 500px;
     height: 500px;
