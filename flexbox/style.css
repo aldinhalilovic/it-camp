@@ -16,16 +16,35 @@ body{
     padding: 0 50px
 }
 
-a{
+.navbar .hrefovi{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    text-decoration: none;
+}
+
+.navbar a{text-decoration: none;
     font-weight: 700;
     font-size: large;
     color: black;
     text-transform: capitalize;
+    margin: 10px;
+    position: relative;
+}
+
+.navbar a::after{
+    width: 0%;
+    height: 3px;
+    content: '';
+    position: absolute;
+    background-color: #f9f9f9;
+    bottom: -5px;
+    left: 0px;
+    transition: 0.5s;
+}
+
+.navbar a:hover::after{
+    width: 100%;
 }
 
 .hero{
@@ -44,8 +63,8 @@ a{
     height: 200px;
     margin: 10px;
     border-radius: 50%;
-    transition: background-color 2s;
-    transition: border-radius 2s;
+    transition:  2s;
+    /* transition: border-radius 2s; */
 }
 
 .prva:hover{
@@ -55,7 +74,7 @@ a{
 
 .druga{
    
-    background-image:linear-gradient(to bottom left, blue,red);
+    background-image:linear-gradient(to bottom, blue,black);
     width: 100px;
     height: 200px;
     margin: 10px;
