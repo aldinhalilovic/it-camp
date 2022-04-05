@@ -44,5 +44,27 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+}
+
+@media only screen and (min-width:786px) {
+
+    .navbar .logo{
+        color: black;
+        text-decoration: underline;
+
+    }
+
+    .navbar .menu{
+        margin: 30px;
+        font-weight: 700;
+    }
+
+    .home{
+        width: 100%;
+        height: auto;
+        background-image: url(./bot2.png);
+        background-position: center;
+    }
+
+
 }
