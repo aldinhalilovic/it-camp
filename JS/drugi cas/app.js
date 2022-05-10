@@ -84,3 +84,51 @@
 // console.log ( a || b)    || predstavlja proveru da li je bilo sta tacno, i print-a prvog tacnog
 
 // console.log (!4);             ! predstavlja negaciju, print-a suprotnost od true ili false  
+
+console.log (5===5)
+//proverava  nam jednakost leve i desne strane
+console.log (4=="4")
+// == nam proverava vrednost, ne i tip leve i desne strane
+console.log ( 4!==5)
+console.log ( 4!=="5")
+// !== proverava razilicitost leve ili desne strane, nije bitan tip varijable,
+
+console.log ( 4>5)    // false
+console.log ( 4<5)   // true
+
+// <,> vece manje, imamo i <=, >= manje ili jedanko/vece ili jednako
+
+const ime =  ("Aldin")
+
+// prompt nam puni varijablu,retko kad se koristi
+
+console.log (ime)
+
+let age = 30
+
+console.log ( ++age)
+// dodaje +1 na broj u varijabli, racuna odma i printa odma
+console.log (age++)
+// dodaje +1 na broj u varijabli, racuna, printa nakon sledeceg consol loga
+console.log (age)
+
+//const godine = prompt ("Unesi broj godina")
+
+// if (godine > 20) {
+//     console.log ("Ostarao si")
+// }
+
+// else if (godine <20) {
+//     console.log ("Mlad si jos uvek")
+// }
+
+
+const a = 5
+const b = 7
+
+console.log ( a&&b)
+// trazi obe da su true,ako jesu, printa vecu vrednost
+console.log (a||b)
+// trazi da je samo jedna true,prva koja naidje printa je
+console.log (!a)
+// negacija same varijable, ako je true, salje nam false, ako je false salje true....
