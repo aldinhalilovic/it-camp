@@ -3,7 +3,7 @@
 //do while
 
 // for ( let i = 0; i<10 ; i+=2) {         i+=2    dodaje 2 na svaki broj
-//     console.log (i)
+//     console.log (i) 
 // }
 
 

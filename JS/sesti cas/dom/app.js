@@ -19,14 +19,18 @@
 // let proizovd = (pomnozi())
 // console.log (proizovd)
 
-function mnozenje () {
-    let proizovd = 0
-    for ( let i = 0; i<prompt ("unesi broj brojeva"); i++) {
-        prompt ("Unesi broj")
-        
-    }
-    return prozivod
+
+let broj = 1
+let okretanje  = prompt ("Unesi broj okretanja")
+for ( let i = 0; i<okretanje; i++) {
+    broj =  prompt ("Unesi broj") * broj;
 }
 
-mnozenje()
+function mnozenje () {
+    return  broj 
+}
+
+
+let rezultat = (mnozenje())
+console.log (rezultat)
 
