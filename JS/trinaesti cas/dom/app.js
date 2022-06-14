@@ -43,7 +43,7 @@ const cellPhoneNumbers = {
 }
 
 function addNumY(numms) {
-   console.log (this.yettel + numms);
+   return (this.yettel + numms);
 };
 
 function addNumM(numms) {
@@ -51,13 +51,18 @@ function addNumM(numms) {
 }
 
 function addNumV(numms) {
-    console.log (this.vip + numms);
+    return (this.vip + numms);
 }
 
 addNumY.apply(cellPhoneNumbers,[`062, 063, 069`]);
 addNumM.apply(cellPhoneNumbers,[`064, 065, 066`]);
 addNumV.apply(cellPhoneNumbers,[`061, 067`]);
 
-const bindfnc = addNumM.bind(cellPhoneNumbers,);
+const bindfncY = addNumY.bind(cellPhoneNumbers);
+const bindfncM = addNumM.bind(cellPhoneNumbers);
+const bindfncV = addNumV.bind(cellPhoneNumbers);
 
-console.log(bindfnc(`061`))
+console.log(bindfncY(`062, 063, 069`));
+console.log(bindfncM(`064, 065, 066`));
+console.log(bindfncV(`061, 067`));
+
