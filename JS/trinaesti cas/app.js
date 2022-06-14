@@ -53,3 +53,8 @@ const godine = 40;
 console.log(`${ime} je ${zanimanje}, i ima ${godine} godina.`)
 
 // ${VARIJABLA}  ` OTVARA NAM STRINGOVE, I MOZEMO DA PRISTUPAMO VARIJABLAMA.
+
+
+const nummerAray = [10, 20, 30, 40, 100, 400, 1000];
+
+console.log(Math.max.apply(null, nummerAray));
