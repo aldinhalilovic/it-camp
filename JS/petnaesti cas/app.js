@@ -11,44 +11,79 @@
 
 
 
-function arrayMap(arr,clback) {
-    res = [];
-    for (let i = 0; i < arr.length; i++) {
-        newEl = clback(arr[i]);
-        res.push(newEl);
+// function arrayMap(arr,clback) {
+//     res = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         newEl = clback(arr[i]);
+//         res.push(newEl);
+//     }
+//     return res;
+// };
+
+// myfunc = function(arg1) {
+//     return arg1 * 2;
+// };
+
+
+
+// // console.log(arrayMap([2,4,5,6],myfunc));
+
+
+// posao = new Promise((resolve, reject) => {
+//     response = 500;
+
+//     for (let i = 0; i <900000000; i++) {}
+//     if(response === 500) {
+//         resolve([5,6,7,8,9]);
+//     } else {
+//         reject([1,2,3,4]);
+//     }
+// });
+
+// posao.then((data) => {
+//     console.log("uspenso povukao podatke",data );
+//     arr = data.filter((el) => el % 2 ===0);
+//     return arr
+// })
+// .then((arg2) => {
+//     console.log(arg2.map((el) => el * 2))
+// })
+// .catch((err) => {
+//     console.log("Neuspesno povukao podatke", err);
+// })
+
+
+
+// p = new Promise((resolve,reject) => {
+//     let a = 1+1;
+//     if ( a == 2 ) {
+//         resolve("Succes")
+//     } else {
+//         reject("Failed")
+//     }
+// })
+
+// p.then((message) => {
+//     console.log(" Then is " + message)
+// }).catch((message) => {
+//     console.log("Catch is " + message)
+// })
+
+
+// VAR/LET SCOPE
+// HOISTING MEHANIZAM
+// CLOSUREEE MDN PRIMER SA RETURN X, Y MAKEADDER
+// HTTP
+
+
+function mojaFunc() {
+    function drugaFunc() {
+        console.log("askfhdj");
     }
-    return res;
-};
+}
 
-myfunc = function(arg1) {
-    return arg1 * 2;
-};
+// mojaFunc()();
 
+res = mojaFunc();
 
-
-// console.log(arrayMap([2,4,5,6],myfunc));
-
-
-posao = new Promise((resolve, reject) => {
-    response = 500;
-
-    for (let i = 0; i <900000000; i++) {}
-    if(response === 500) {
-        resolve([5,6,7,8,9]);
-    } else {
-        reject([1,2,3,4]);
-    }
-});
-
-posao.then((data) => {
-    console.log("uspenso povukao podatke",data );
-    arr = data.filter((el) => el % 2 ===0);
-    return arr
-})
-.then((arg2) => {
-    console.log(arg2.map((el) => el * 2))
-})
-.catch((err) => {
-    console.log("Neuspesno povukao podatke", err);
-})
-
+res();
