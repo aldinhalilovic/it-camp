@@ -76,14 +76,77 @@
 // HTTP
 
 
-function mojaFunc() {
-    function drugaFunc() {
-        console.log("askfhdj");
+// function mojaFunc() {
+//     function drugaFunc() {
+//         console.log("askfhdj");
+//     }
+// }
+
+// // mojaFunc()();
+
+// res = mojaFunc();
+
+// res();
+
+
+
+
+// var a = "first";
+// var b = "second";
+// var c = "third";
+
+// console.log(a + " " + b + " " + c);
+
+// d=4;
+// console.log(d);
+// var d;
+
+
+
+// console.log(example()); // INPUT nam je 10,kao funckija bila iznad, kao ispod consol loga,
+
+//radi samo na namefunction, imenovane funkcije se hoistaju u browseru
+
+// function example() {
+//     var a = 10;
+//     return a;
+// }
+
+// var a = function () {
+//     var a = 20;
+//     return a;
+// }
+
+// console.log(a()); // ovo mora da bude iznad, tj, varijabla koja je dobila funkciju se ne hoista, i ona mora da ide prva pa onda console.log
+
+// function init() {
+//     var name = 'Aldin';
+//     var lastname = 'Halilovic' 
+//     function displayName() { 
+//       return name + " " + lastname; 
+//     }
+//     return displayName;
+// }
+
+// var clas = init();
+
+// console.log(clas())
+
+// const myName = "Aldin";
+
+// function printName() {
+//     console.log(myName);
+// };
+
+// printName()
+
+function outerFunction(outerVariable) {
+    return function innerFunction(innerVariable) {
+        console.log("Outer Variable " + outerVariable );
+        console.log("Inner Variable " + innerVariable);
     }
 }
 
-// mojaFunc()();
+const newFunction = outerFunction("outside");
 
-res = mojaFunc();
-
-res();
+newFunction();
