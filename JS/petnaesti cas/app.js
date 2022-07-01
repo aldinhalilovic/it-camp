@@ -140,13 +140,56 @@
 
 // printName()
 
-function outerFunction(outerVariable) {
-    return function innerFunction(innerVariable) {
-        console.log("Outer Variable " + outerVariable );
-        console.log("Inner Variable " + innerVariable);
-    }
-}
+// function outerFunction(outerVariable) {
+//     return function innerFunction(innerVariable) {
+//         console.log("Outer Variable " + outerVariable );
+//         console.log("Inner Variable " + innerVariable);
+//     }
+// }
 
-const newFunction = outerFunction("outside");
+// const newFunction = outerFunction("outside");
 
-newFunction();
+// newFunction();
+// JSONPLACEHOLDER KOMANDE : GET-DAJE INFORMACIJE , POST,PUT,PATCH,DELETE
+
+
+
+
+// const getUsers = () => {
+//     fetch(`${BASE_URL}/users`)
+//     .then(response => response.json())
+//     .then(res => console.log(res));
+// }
+
+// getUsers()
+
+
+const BASE_URL = "https://jsonplaceholder.typicode.com";
+
+const getUsers = async () => {
+    const response = await fetch(`${BASE_URL}/users`);      // UVEK SE PISE CONST, AWAIT CUVAMO U VARIJABLU UVEK
+    const posts = await response.json();
+    return posts;
+};
+
+getUsers().then((users) => {
+    const newUsers = users.map((el) => {
+        return {
+            name: el.name,
+            username: el.username,
+            phone: el.phone,
+        };
+    });
+    console.log(newUsers);
+
+})
+
+// OVO JE VEROVATNO ZADATAK NA TEST, DA SE IZDVOJI NAME USERNAME PHONE ILI BILO STA DRUOG OD OSTALIH....
+
+// CETVRTI ZA BONUS POENE, GOOGLE NAJVAZNIJI ZA TO
+
+
+// 1. zadatak je nesto laganini prica
+// 2. zadatak je niz ili nesto
+// 3. zadatak je fecanje ili sta vec
+
