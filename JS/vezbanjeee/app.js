@@ -155,6 +155,66 @@ DA SE POGLEDA OVAJ PRIMER SA MDN */
 
 // console.log(Math.max.apply(null, nummerAray));
 
+
+
+// movies[1].gledao = "Ne";
+// console.log(movies)
+
+// const newMoviesArray = movies.map((movie) => {
+//     return {
+//         title: movie.title,
+//         budget: movie.budget,
+//         rankovi: movie.rating,
+//     };
+// });
+
+// console.log(newMoviesArray)
+
+
+
+// ASYNC JAVASCRIPT DA SE PROVEZBA MALO;
+
+// posao = new Promise((resolve, reject) => {
+//     response = 500;
+
+//     for (let i = 0; i <900000000; i++) {}
+//     if(response === 500) {
+//         resolve([5,6,7,8,9]);
+//     } else {
+//         reject([1,2,3,4]);
+//     }
+// });
+
+// posao.then((data) => {
+//     console.log("uspenso povukao podatke",data );
+//     arr = data.filter((el) => el % 2 ===0);
+//     return arr
+// })
+
+
+// const BASE_URL = "https://jsonplaceholder.typicode.com";
+
+// const getUsers = async () => {
+//     const response = await fetch(`${BASE_URL}/users`);      // UVEK SE PISE CONST, AWAIT CUVAMO U VARIJABLU UVEK
+//     const posts = await response.json();
+//     return posts ;
+// };
+
+// getUsers().then((el) => console.log(el));
+
+// getUsers().then((users) => {
+//     const newUsers = users.map((el) => {
+//         return {
+//             name: el.name,
+//             username: el.username,
+//             phone: el.phone,
+//         };
+//     });
+//     console.log(newUsers);
+
+// })
+
+
 const movies = [
     {title: "Movie1", rating: 8, budget: "230M"},
     {title: "Movie2", rating: 5, budget: "30M"},
@@ -163,20 +223,13 @@ const movies = [
     {title: "Movie5", rating: 9.5, budget: "120M"},
 ];
 
-movies[1].gledao = "Ne";
-console.log(movies)
+console.log(movies);
 
-const newMoviesArray = movies.map((movie) => {
+const rating = movies.map((el) => {
     return {
-        title: movie.title,
-        budget: movie.budget,
-        rankovi: movie.rating,
-    };
-});
+        ratings : el.rating,
+    }
+})
 
-console.log(newMoviesArray)
-
-
-
-// ASYNC JAVASCRIPT DA SE PROVEZBA MALO;
+console.log(rating)
 
