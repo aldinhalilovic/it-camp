@@ -215,21 +215,26 @@ DA SE POGLEDA OVAJ PRIMER SA MDN */
 // })
 
 
-const movies = [
-    {title: "Movie1", rating: 8, budget: "230M"},
-    {title: "Movie2", rating: 5, budget: "30M"},
-    {title: "Movie3", rating: 9, budget: "530M"},
-    {title: "Movie4", rating: 4, budget: "200M"},
-    {title: "Movie5", rating: 9.5, budget: "120M"},
-];
+// const movies = [
+//     {title: "Movie1", rating: 8, budget: "230M"},
+//     {title: "Movie2", rating: 5, budget: "30M"},
+//     {title: "Movie3", rating: 9, budget: "530M"},
+//     {title: "Movie4", rating: 4, budget: "200M"},
+//     {title: "Movie5", rating: 9.5, budget: "120M"},
+// ];
 
-console.log(movies);
+// console.log(movies);
 
-const rating = movies.map((el) => {
-    return {
-        ratings : el.rating,
-    }
-})
+// const rating = movies.map((el) => {
+//     return {
+//         ratings : el.rating,
+//     }
+// })
 
-console.log(rating)
+// console.log(rating)
 
+
+
+newArr = [1,2,3,4,5,6]
+
+console.log(newArr[-1]);
