@@ -245,30 +245,30 @@ DA SE POGLEDA OVAJ PRIMER SA MDN */
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const ime1 = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
-const ime2 = "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB";
+// const ime1 = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+// const ime2 = "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB";
 
-const reversing = (ime1, ime2) => {
-  const firstNameReversed = ime1.split("").reverse().join("");
-  const secondNameReversed = ime2.split("").reverse().join("");
-  let reversed = "";
-  if (ime1.length > ime2.length) {
-    for (let i = 0; i < ime1.length; i++) {
-      reversed += firstNameReversed[i];
-      if (ime2[i]) {
-        reversed += secondNameReversed[i];
-      }
-    }
-  } else {
-    for (let i = 0; i < ime2.length; i++) {
-      reversed += ime2[i];
-      if (ime1[i]) {
-        reversed += ime1[i];
-      }
-    }
-  }
-  return reversed;
-};
+// const reversing = (ime1, ime2) => {
+//   const firstNameReversed = ime1.split("").reverse().join("");
+//   const secondNameReversed = ime2.split("").reverse().join("");
+//   let reversed = "";
+//   if (ime1.length > ime2.length) {
+//     for (let i = 0; i < ime1.length; i++) {
+//       reversed += firstNameReversed[i];
+//       if (ime2[i]) {
+//         reversed += secondNameReversed[i];
+//       }
+//     }
+//   } else {
+//     for (let i = 0; i < ime2.length; i++) {
+//       reversed += ime2[i];
+//       if (ime1[i]) {
+//         reversed += ime1[i];
+//       }
+//     }
+//   }
+//   return reversed;
+// };
 //   let finishedProduct = "";
 //   let arrlen = {};
 //   if (ime1.length > ime2.length) {
@@ -294,8 +294,123 @@ const reversing = (ime1, ime2) => {
 //   return finishedProduct;
 // };
 
-console.log(reversing(ime1, ime2));
+// console.log(reversing(ime1, ime2));
+// console.log(concatNames(ime1Reversed, ime2Reversed));
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// console.log(concatNames(ime1Reversed, ime2Reversed));
+///////////////////FETCHING,PROMISI,ASYNC/AWAIT//////////////////////////////////////////////////////////////////////////////////////////////////////
+// function getData() {
+//   fetch("https://jsonplaceholder.typicode.com/users")
+//     .then((res) => res.json())
+//     .then((e) => console.log(e));
+// }
+
+// getData();
+
+// async function getData() {
+//   const response = await fetch(
+//     "https://jsonplaceholder.typicode.com/comments?postId=1"
+//   );
+//   const final = await response.json();
+//   return final;
+// }
+
+// getData().then((el) => console.log(el));
+
+// function postData() {
+//   fetch("https://jsonplaceholder.typicode.com/posts", {
+//     method: "POST",
+//     body: JSON.stringify({
+//       title: "AAAAAAAAAA",
+//       body: "laskdjlksjdlsajdklasj",
+//       userId: 18902389479234,
+//     }),
+//     headers: {
+//       "Content-type": "application/json; charset=UTF-8",
+//     },
+//   })
+//     .then((el) => el.json())
+//     .then((res) => console.log(res));
+// }
+
+// postData();
+
+// async function postData() {
+//   const posting = await fetch("https://jsonplaceholder.typicode.com/posts", {
+//     method: "POST",
+//     body: JSON.stringify({
+//       title: "AAAAAAAAAA",
+//       body: "laskdjlksjdlsajdklasj",
+//       userId: 18902389479234,
+//     }),
+//     headers: {
+//       "Content-type": "application/json; charset=UTF-8",
+//     },
+//   });
+//   const response = await posting.json();
+//   return response;
+// }
+
+// postData().then((el) => console.log(el));
+
+// async function getData() {
+//   const response = await fetch(
+//     "https://jsonplaceholder.typicode.com/comments?postId=1"
+//   );
+//   const final = await response.json();
+//   return final;
+// }
+
+// getData().then((el) => console.log(el));
+
+/////////////////////////THIS////////////////////////////////////////////////////////////////////
+
+// const some = () => {
+//   console.log(this.a);
+// };
+
+// function something() {
+//   console.log(this);
+// }
+
+// const mock = {
+//   name: "lkasdjklsa",
+//   number: 123,
+// };
+
+// const aslkdj = something.bind(mock);
+
+// aslkdj();
+
+///////////////////////////////////////CLOSURE//////////////////////////////////////////////////////////
+// function init() {
+//   var name = "alskdjlaksj";
+//   function displayName() {
+//     console.log(name);
+//   }
+
+//   displayName();
+// }
+
+// init();
+
+// function makeFunc() {
+//   const name = "HGMGHJGJHGJHKGJK";
+//   function displayName() {
+//     console.log(name);
+//   }
+//   return displayName;
+// }
+
+// const myFunc = makeFunc();
+// myFunc();
+
+// function makeAdd(x) {
+//   return function (y) {
+//     return x + 1 + y;
+//   };
+// }
+
+// const a = makeAdd(2);
+// console.log(a(3));
